@@ -116,7 +116,7 @@ nav ul li a.active  {
 #mascote .card {
     border: 2px solid #1C9770; 
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: blue;
 }
 
 #mascote img {
