@@ -1,0 +1,125 @@
+header {
+    margin: 20px;
+}
+
+nav {
+    width: 95%;
+    height: 60px;
+    margin: auto;
+    max-width: 750px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border: 2px solid #1C9770; 
+    border-radius: 50px; 
+    padding: 10px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 20px; 
+}
+
+nav ul li a {
+    color: #1C9770 !important; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active  {
+    color: #93CB52 !important;
+}
+
+#logo_careplus {
+    height: 100px;
+    width: 100px;
+}
+
+
+/* estilização do card progresso */
+
+#progresso .card {
+    border: 2px solid #1C9770;
+    border-radius: 20px;       
+    background-color: #ffffff;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+#progresso h2 {
+    color: #93CB52;
+    text-align: center;
+}
+
+.circulo-progresso {
+    width: 80px;
+    height: 80px;
+    border: 6px solid #7AD1C3; 
+    border-radius: 50%;
+    color: #7AD1C3;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.missoes .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 10px;
+    
+}
+
+.missoes button {
+    background-color: #1C9770 !important; 
+    border: none;
+    border-radius: 10px;
+    width: calc(33.33% - 10px);
+}
+
+.grafico {
+    border: 1px solid #e0e0e0 !important;
+    background-color: #f9f9f9 !important;
+}
+
+/* estilização do card status */
+#mascote .card,
+#usuario-status .card {
+    width: 100%;
+    border: 2px solid #1C9770;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#usuario-status label {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.progress {
+    height: 12px; 
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #1C9770 !important; 
+    border-radius: 10px;
+}
+
+/* estilização mascote */
+
+#mascote .card {
+    border: 2px solid #1C9770; 
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+#mascote img {
+    transition: transform 0.3s ease;
+}
+
