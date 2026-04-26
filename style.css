@@ -1,3 +1,5 @@
+/* estilização barra de navegação*/
+
 header {
     margin: 20px;
 }
@@ -39,7 +41,7 @@ nav ul li a.active  {
 }
 
 
-/* estilização do card progresso */
+/* estilização do card progresso na pagina index */
 
 #progresso .card {
     border: 2px solid #1C9770;
@@ -84,7 +86,7 @@ nav ul li a.active  {
     background-color: #f9f9f9 !important;
 }
 
-/* estilização do card status */
+/* estilização do card status na pagina index */
 #mascote .card,
 #usuario-status .card {
     width: 100%;
@@ -111,15 +113,57 @@ nav ul li a.active  {
     border-radius: 10px;
 }
 
-/* estilização mascote */
+/* estilização mascote na pagina index*/
 
 #mascote .card {
     border: 2px solid #1C9770; 
     border-radius: 20px;
-    background-color: blue;
+    background-color: #ffffff;
 }
 
 #mascote img {
     transition: transform 0.3s ease;
 }
 
+/* estilização pagina perfil */
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.bg-white-50 {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.5rem 1rem;
+}
+
+.perfil-dado-fixo {
+    border: none;
+    font-size: 1rem;
+    min-height: 40px; 
+    display: flex;
+    align-items: center;
+}
+.display-block {
+    display: block;
+}
+
+/* estilização da pagina missões */
+
+.pagina-missoes .card {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.pagina-missoes .row {
+    justify-content: center; /* Centraliza as colunas na linha */
+}
+
+.pagina-missoes .col-12 {
+    margin-bottom: 20px;
+}
+
+.pagina-missoes .p-4 {
+    margin-bottom: 30px; /* Espaço entre o painel 'Concluídas' e o 'Em progresso' */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Uma sombra leve para dar profundidade */
+}
