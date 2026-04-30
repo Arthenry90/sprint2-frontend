@@ -15,7 +15,7 @@ Desenvolvemos uma plataforma voltada para o gerenciamento de missões e recompen
 - Pedro Sales Ferreira - RM566990
 
 ## Instruções de Uso
-Link para o site: [Link](https://arthenry90.github.io/sprint2-frontend/)
+Link para o site: [Link](https://arthenry90.github.io/sprint2-frontend/)  
 Esta entrega não tem funcionalidades em JavaScript (JS)
 
 ## 🎨 Design e Protótipo
